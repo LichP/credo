@@ -1,6 +1,6 @@
 require './lib/credo/version'
 
-Gem::Specification do |s|
+Gem::Specification.new do |s|
   s.name = "credo"
   s.version = Credo::VERSION
   s.summary = %{A simple way to retain and use credentials}
@@ -9,7 +9,7 @@ Gem::Specification do |s|
   s.email = ['phil.stewart@lichp.co.uk']
   s.homepage = 'http://github.com/lichp/credo'
   
-  s.files = Dir [
+  s.files = Dir[
     'lib/**/*.rb',
     'test/*.rb',
     'README',
